@@ -8,7 +8,7 @@ from streamlit_extras.let_it_rain import rain
 home_page = st.Page("cool.py", title="Home", icon=":material/home:", default=True)
 settings_page = st.Page("1_editing.py", title="edit", url_path="edit")
 pg = st.navigation([home_page, settings_page])
-pg
+pg.run
 st.title("hi")
 st.header("best coolest thing in the world")
 st.subheader("yah")
