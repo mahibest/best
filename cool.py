@@ -161,6 +161,5 @@ money = st.text_input("amount needed")
 st.write("feching cash...")
 data = togetcash(money)
 st.write(data)
-button = st.sidebar.button("webpage")
-if button:
-    st.switch_page("1_editing.py")
+st.page_link(label="edit", icon="🖌️")
+st.page_link("1_editing.py", label="Profile")
