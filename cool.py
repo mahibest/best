@@ -25,7 +25,7 @@ st.write(not b2)
 st.write([{"cool"}])
 st.write({"cool"})
 st.divider()
-st.image(os.path.join(os.getcwd(), "static", "image.png"))
+st.image(os.path.join(os.getcwd(), "image.png"))
 st.divider()
 st.subheader("boring stuff fun!!!")
 df = pd.DataFrame({
