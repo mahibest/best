@@ -9,7 +9,6 @@ home_page = st.Page("cool.py", title="Home", icon=":material/home:", default=Tru
 settings_page = st.Page("1_editing.py", title="edit", url_path="edit")
 pg = st.navigation([home_page, settings_page])
 pg
-st.set_page_config(page_icon=":sunglasses:")
 st.title("hi")
 st.header("best coolest thing in the world")
 st.subheader("yah")
